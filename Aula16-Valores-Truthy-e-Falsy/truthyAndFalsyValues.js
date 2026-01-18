@@ -32,11 +32,13 @@ nomes.forEach((nome) => {
 });
 
 const x = 10;
+const nome = "Adriano";
 const y = null;
 
-// if (x){
-//   console.log("X é uma variável truthy")
-// }
+// No caso do if nome, apenas verifica se existe, pois se existir é truthy.
+if (nome) {
+  console.log("Nome é uma variável truthy", nome);
+}
 
 if (y) {
   console.log("Y é uma variável truthy");
